@@ -5,10 +5,10 @@
 // The outer scope can be a parent function, or the top level of the script.
 const name = "Joseph";
 
-function sayname(n1) {
+function sayname() {
     console.log(`Hello ${name}`);
 }
-sayname(name);
+sayname();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
