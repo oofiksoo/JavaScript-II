@@ -59,11 +59,6 @@ const fullNames = [];
 runners.forEach(function(n1) {
     fullNames.push(n1.first_name + " " + n1.last_name);
 });
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1c7632a37d09d64cff5a82bd90c977414971425f
 console.log(fullNames);
 
 // ==== Challenge 2: Use .map() ====
@@ -85,11 +80,7 @@ console.log(runnersLargeSizeShirt);
 // The donations need to be tallied up and reported for tax purposes. Add up all the donations and save the total into a ticketPriceTotal variable.
 let ticketPriceTotal = runners.reduce(function(total1, sum1) {
     return total1 + sum1.donation;
-<<<<<<< HEAD
 }, 0);
-=======
-});
->>>>>>> 1c7632a37d09d64cff5a82bd90c977414971425f
 console.log(ticketPriceTotal);
 
 // ==== Challenge 5: Be Creative ====
@@ -101,10 +92,6 @@ let donationunder10 = runners.filter(function(donationtots) {
     return donationtots.donation < 10;
 });
 console.log(donationunder10);
-<<<<<<< HEAD
-
-=======
->>>>>>> 1c7632a37d09d64cff5a82bd90c977414971425f
 // Problem 2
 // names + company names (sponsors) .foreach()
 const withSponsor = [];
